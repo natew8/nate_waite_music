@@ -1,0 +1,61 @@
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.nameContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  margin: 0;
+  font-size: 64px;
+  letter-spacing: 4px;
+  font-family: var(--font-playfair-display);
+}
+
+.actionContainer {
+  display: grid;
+}
+
+.actionLabel {
+  margin: 0 auto;
+  margin-bottom: 8px;
+  font-size: 44px;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  font-family: var(--font-playfair-display);
+}
+
+.actionButton {
+  border-radius: 4px;
+  background: var(--foreground);
+  color: var(--background);
+  font-weight: 900;
+  text-align: center;
+  margin: 0 auto;
+  padding: 8px 12px;
+}
+
+.actionButton:hover {
+  background: var(--secondary);
+}
+
+.image {
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding: 32px;
+    padding-bottom: 80px;
+  }
+
+  .main {
+    align-items: center;
+  }
+}

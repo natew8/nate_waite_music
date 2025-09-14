@@ -1,0 +1,11 @@
+.videoBox {
+  display: flex;
+  flex-direction: column;
+  background: var(--foreground);
+  width: 600px;
+}
+
+.titleBox {
+  color: var(--background);
+  padding: 12px;
+}

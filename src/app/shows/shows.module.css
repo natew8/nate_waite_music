@@ -1,0 +1,24 @@
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.showsTBATitle {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0px auto;
+  color: var(--foreground);
+  text-align: center;
+}
+
+.showsTBASubtitle {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0px auto;
+  color: var(--foreground);
+  text-align: center;
+}

@@ -1,7 +1,7 @@
 export const songMetadata = [
   {
     songTitle: "One Day",
-    srcFile: "/oneDayCover.PNG",
+    srcFile: "/oneDayCover.jpg",
     linkRef: "https://open.spotify.com/track/5KYUs4sU3AJSE3KSl6uZvE?si=b8bd0ec8510c48fb",
   },
   {
@@ -13,7 +13,7 @@ export const songMetadata = [
   {
     songTitle: "Dont Stop Me",
     subTitle: "feat. Kaylie Marie",
-    srcFile: "/dontStopMeCover.PNG",
+    srcFile: "/dontStopMeCover.jpg",
     linkRef: "https://open.spotify.com/track/14pYYA98bg9g5qGCjkFSv3?si=2e90026d6f1b455d",
   },
   {

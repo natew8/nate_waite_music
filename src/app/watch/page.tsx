@@ -1,4 +1,3 @@
-import styles from "./watch.module.css"
 import { videoLinks } from "./videoLinks"
 import VideoBox from "@/components/video_box/VideoBox"
 import { Metadata } from "next";
@@ -10,8 +9,8 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <div className={styles.main}>
-      <div className={styles.watchList}>
+    <div className="flex-1 flex flex-col items-center h-screen">
+      <div className="grid grid-cols-2 gap-12 p-6 h-full">
         {videoLinks.map((vid) => (
           <VideoBox key={vid.videoTitle} url={vid.url} videoTitle={vid.videoTitle} />
         ))}

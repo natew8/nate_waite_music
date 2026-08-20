@@ -1,5 +1,4 @@
 import { Metadata } from "next"
-import styles from "./listen.module.css"
 import { songMetadata } from "./songMetadata"
 import SongLinkBox from "@/components/song_link_box/SongLinkBox"
 
@@ -10,8 +9,8 @@ export const metadata: Metadata = {
 
 export default function Listen() {
   return (
-    <div className={styles.main}>
-      <div className={styles.songList}>
+    <div className="flex-1 flex flex-col items-center h-screen">
+      <div className="flex flex-col items-center w-4/5 p-6 h-full">
         {songMetadata.map((meta) => (
           <SongLinkBox key={meta.songTitle} songTitle={meta.songTitle} subTitle={meta.subTitle} srcFile={meta.srcFile} linkRef={meta.linkRef} width={meta.width} height={meta.height} />
         ))}
